@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Cyber Crime System</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(135deg,#0a1f44,#123a7a);
+        }
+
+        .contact-container{
+            width:55%;
+            margin:50px auto;
+            background:#fff;
+            border-radius:12px;
+            display:flex;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+            overflow:hidden;
+        }
+
+        .left{
+            width:45%;
+            background:#0a1f44;
+            color:#fff;
+            padding:30px;
+        }
+
+        .left h2{
+            margin-top:0;
+        }
+
+        .left p{
+            font-size:14px;
+            line-height:1.6;
+        }
+
+        .info{
+            margin-top:20px;
+        }
+
+        .info p{
+            margin:10px 0;
+        }
+
+        .right{
+            width:55%;
+            padding:30px;
+        }
+
+        .right h2{
+            margin-top:0;
+            color:#0a1f44;
+            text-align:center;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:10px;
+            margin:10px 0;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:#0a1f44;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#123a7a;
+        }
+
+        @media(max-width:900px){
+            .contact-container{
+                flex-direction:column;
+                width:90%;
+            }
+            .left, .right{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contact-container">
+
+    <div class="left">
+        <h2>Contact Information</h2>
+        <p>If you face any cyber crime issues or need assistance, feel free to contact us.</p>
+
+        <div class="info">
+            <p><b>📍 Address:</b> Cyber Cell, Maharashtra, India</p>
+            <p><b>📞 Phone:</b> 1930</p>
+            <p><b>✉ Email:</b> cybercrime@support.in</p>
+            <p><b>⏰ Working Hours:</b> 24 x 7 Support</p>
+        </div>
+    </div>
+
+    <div class="right">
+        <h2>Send Us a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
