@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>User Registration</title>
+<style>
+body{margin:0;font-family:Arial;background:#123a7a;display:flex;justify-content:center;align-items:center;height:100vh}
+.box{background:#584650;padding:30px;border-radius:10px;width:320px;text-align:center}
+input,button{width:100%;padding:10px;margin:8px 0}
+button{background:#123a7a;color:#fff;border:none}
+body{
+    background-image: url(https://www.pc-docs.co.uk/wp-content/uploads/2021/04/why-cybercrime-is-increasing-day-by-day.jpg);
+    background-size: 210vh;
+}
+
+</style>
+</head>
+<body>
+<div class="box">
+<h2>Register</h2>
+<form action="register.php" method="post">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="text" name="mobile" placeholder="Mobile" required>
+<input type="password" name="password" placeholder="Password" required>
+<button type="submit">Register</button>
+</form>
+</div>
+</body>
+</html>
