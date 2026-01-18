@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Complaint Form</title>
+<style>
+body{margin:0;font-family:Arial;background:#f4f6f8;display:flex;justify-content:center;align-items:
+center;height:100vh}
+.box{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+}
+input,select,textarea,button{width:90%;padding:8px;margin:8px 0}
+button{background:#0a1f44;color:#fff;border:none}
+body{
+    background-image: url(https://img.pikbest.com/backgrounds/20241126/cybersecurity-logo-design_11136419.jpg!w700wp);
+    background-size: 210vh;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h2>Register Complaint</h2>
+<form action="thanks.html" method="post" enctype="multipart/form-data">
+<select name="crime_type">
+<option>Phishing</option>
+<option>Online Fraud</option>
+<option>Hacking</option>
+<option>Cyber Bullying</option>
+<option>others</option>
+</select>
+<textarea name="description" placeholder="Complaint Details"></textarea>
+<input type="file" name="evidence">
+<button onclick=a href ="thanks.html">Submit</button>
+
+</form>
+</div>
+</body>
+</html>
